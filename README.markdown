@@ -1,0 +1,3 @@
+Working through Aaron Hillegass' "Cocoa Programming for Mac OS X".
+As though I don't have enough unfinished projects lying around in 
+languages I _already_ know...

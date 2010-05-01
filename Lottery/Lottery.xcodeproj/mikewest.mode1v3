@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -320,11 +322,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>52F0DD16118C545200791303</string>
+										<string>52F0DD27118CA00700791303</string>
 										<key>history</key>
 										<array>
 											<string>52F0DCDD118C4E4600791303</string>
-											<string>52F0DCDE118C4E4600791303</string>
+											<string>52F0DD21118C58C400791303</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,8 +348,6 @@
 							<string>277pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -527,11 +527,11 @@
 		<string>52F0DCE3118C4E4600791303</string>
 		<string>52F0DCE4118C4E4600791303</string>
 		<string>52F0DCE5118C4E4600791303</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>52F0DCE6118C4E4600791303</string>
-		<string>/Users/mikewest/Repositories/hillegass-exercises/Lottery/Lottery.xcodeproj</string>
 		<string>52F0DCC4118C3EB900791303</string>
-		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/mikewest/Repositories/hillegass-exercises/Lottery/Lottery.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>80 528 788 504 0 0 1920 1178 </string>
@@ -626,7 +626,7 @@
 			<key>WindowToolGUID</key>
 			<string>52F0DCC4118C3EB900791303</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -915,7 +915,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

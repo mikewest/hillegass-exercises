@@ -15,15 +15,13 @@ int main (int argc, const char * argv[]) {
         weeksFromNow =  [
                             now dateByAddingYears:  0
                                            months:  0
-                                             days:  ( i + 7 )
+                                             days:  ( i * 7 )
                                             hours:  0
                                           minutes:  0
                                           seconds:  0
                         ];
 
-        LotteryEntry *newEntry = [ [ LotteryEntry alloc ] init ];
-        [ newEntry prepareRandomNumbers ];
-        [ newEntry setEntryDate:weeksFromNow ];
+        LotteryEntry *newEntry = [ [ LotteryEntry alloc ] initWithEntryDate:weeksFromNow ];
 
         [ array addObject:newEntry ];
 	}

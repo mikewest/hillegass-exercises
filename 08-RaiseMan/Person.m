@@ -18,6 +18,14 @@
 	return self;
 }
 
+- (void)setNilValueForKey:(NSString *)s {
+    if ( [ s isEqual:@"expectedRaise" ] ) {
+        [ self setExpectedRaise:0.0 ];
+    } else {
+        [ super setNilValueForKey:s ];
+    }
+}
+
 @synthesize personName;
 @synthesize expectedRaise;
 
